@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Lee Chanho",
+    "username": "LeeCh",
+    "email": "Chan@gmail.com",
+    "phone": "010-0000-0000",
+    "website": "Chan.org"
+  },
+  {
+    "id": 2,
+    "name": "Lee Chanho",
+    "username": "LeeCh",
+    "email": "Chan@gmail.com",
+    "phone": "010-0000-0000",
+    "website": "Chan.org"
+  },
+  {
+    "id": 3,
+    "name": "Lee Chanho",
+    "username": "LeeCh",
+    "email": "Chan@gmail.com",
+    "phone": "010-0000-0000",
+    "website": "Chan.org"
+  }
+]

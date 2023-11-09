@@ -1,0 +1,18 @@
+/* Login.css */
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.left-section {
+  width: 50%;
+  flex: 1;
+  background-color: #7e7d7d;
+}
+
+.right-section {
+  flex: 1;
+  padding: 20px;
+}

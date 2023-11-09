@@ -1,0 +1,158 @@
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ReactModal__Content {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.members-container {
+  width: 95%;
+  margin: auto;
+}
+
+.members-container h3 {
+  display: inline;
+  border-radius: 20px;
+  background-color: lightgray;
+  padding: 10px;
+  margin-left: auto;
+}
+
+.members-table {
+  width: 160%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.members-table th,
+.members-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.members-table th {
+  background-color: #f2f2f2;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #e6e6e6;
+  color: #333;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.pt-member {
+  background-color: #1890ff; /* PT회원 태그의 배경색 */
+  color: white; /* PT회원 태그의 글꼴 색상을 흰색으로 설정 */
+}
+
+.add-member-btn {
+  background-color: #1890ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.add-member-btn:hover {
+  background-color: #45a049;
+}
+
+.member-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.member-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.add-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.add-btn:hover {
+  background-color: #45a049;
+}
+
+.edit-button {
+  background-color: #4caf50; /* Edit 버튼의 배경색 */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: all 0.5s;
+}
+.edit-button:hover {
+  background-color: #8db48e;
+}
+
+.delete-button {
+  background-color: #ff5555; /* Delete 버튼의 배경색 */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: all 0.5s;
+}
+
+.delete-button:hover {
+  background-color: #ff8989;
+}
+
+.edit-button span,
+.delete-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.edit-button span:after,
+.delete-button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.edit-button:hover span:after,
+.delete-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}

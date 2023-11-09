@@ -1,0 +1,35 @@
+.attendanceMarked {
+  background-color: #1890ff;
+  color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CustomCalendarClass {
+  width: 95%;
+  height: 80%;
+}
+
+.attendanceBtn {
+  background-color: #1890ff;
+  color: white;
+}
+
+.attendanceBtn:hover {
+  background-color: #40a9ff;
+}
+
+.attendanceDel {
+  background-color: #ff5555;
+  color: white;
+  border-radius: 4px;
+  transition: all 0.5s;
+}
+
+.attendanceDel:hover {
+  background-color: #ff8989;
+}
